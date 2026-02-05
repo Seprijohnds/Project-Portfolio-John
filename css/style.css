@@ -11,15 +11,22 @@
     transition: transform 0.3s ease-in-out;
 }
 .wall-p {
+    position: relative;
     background-image: url("https://raw.githubusercontent.com/Seprijohnds/Project-Portfolio-John/main/assets/torii.jpg");
     background-size: cover;
     background-position: center;
-    z-index: 9;
-    width: 100%;
-    height: 100vh;
-    opacity: 0;
-    animation: fadeIn 5s forwards;
 }
+
+.wall-p::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    z-index: 0;
+}
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -35,7 +42,7 @@
 
 .welcome-text {
     z-index: 99;
-    opacity: 0;
+    opacity: 0.1;
     animation: fadeIn 2s forwards;
 }
 
