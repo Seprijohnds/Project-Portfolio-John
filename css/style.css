@@ -1,17 +1,17 @@
 .main-logo {
-    background-image: url("https://github.com/Seprijohnds/Project-Portfolio-John/blob/main/assets/favpic.jpg");
+    background-image: url("https://raw.githubusercontent.com/Seprijohnds/Project-Portfolio-John/main/assets/favpic.jpg");
     background-size: cover;
     background-position: center;
 }
 .main-logo:hover {
-    background-image: url("https://github.com/Seprijohnds/Project-Portfolio-John/blob/main/assets/favpic.jpg");
+    background-image: url("https://raw.githubusercontent.com/Seprijohnds/Project-Portfolio-John/main/assets/favpic.jpg");
     background-size: cover;
     background-position: center;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 .wall-p {
-    background-image: url("https://github.com/Seprijohnds/Project-Portfolio-John/blob/main/assets/torii.jpg");
+    background-image: url("https://raw.githubusercontent.com/Seprijohnds/Project-Portfolio-John/main/assets/torii.jpg");
     background-size: cover;
     background-position: center;
     z-index: 9;
@@ -27,7 +27,7 @@
 }
 
 .port-img {
-    background-image: url("https://github.com/Seprijohnds/Project-Portfolio-John/blob/main/assets/favpic.jpg");
+    background-image: url("https://raw.githubusercontent.com/Seprijohnds/Project-Portfolio-John/main/assets/favpic.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.6;
@@ -48,7 +48,7 @@
     color: #1d4ed8; /* Tailwind's blue-700 */
 }
 
-.animated-port.p {
+.animated-port p {
     animation: fadeIn 10s infinite;
     color: #1d4ed8; /* Tailwind's blue-700 */
 }
